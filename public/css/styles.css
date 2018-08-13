@@ -1,10 +1,3 @@
-/*
- Dark Green : #78BD4C
-  Mid Green : #A8FF56
-       Lite : #ECFFE0
-Dark Purple : #A22FB0
-*/
-
 html, body {
     background-color: #78BD4C;
     height: 100%;
@@ -12,13 +5,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
-
-
-/* ******************************
-              BUTTONS!
-     (Inspired by Bootstrap 3.0)
-   ****************************** */
 
 .btn {
     height: 100%;
@@ -68,11 +54,6 @@ html, body {
     float: right;
 }
 
-/* ******************************
-          TITLE SCREEN
-     (intro-screen-template)
-   ****************************** */
-
 #gameArea {
     height: 100%;
     width: 100%;
@@ -104,11 +85,6 @@ html, body {
     width: 100%;
     text-align: center;
 }
-
-/* ******************************
-          START SCREEN
-     (create-game-template)
-   ****************************** */
 
 .createGameWrapper, .joinGameWrapper, .gameOver {
     font-family: 'Quicksand', sans-serif;
@@ -151,11 +127,6 @@ html, body {
 }
 
 
-/* ******************************
-           JOIN SCREEN
-      (join-game-template)
-   ****************************** */
-
 .joinGameWrapper {
     margin: 0;
     padding: 0;
@@ -187,13 +158,6 @@ html, body {
     font-size: 8em;
 }
 
-
-
-/* ******************************
-          PLAYER GAME SCREEN
-   ****************************** */
-
-
 #ulAnswers {
     width: 100%;
     height: 100%;
@@ -214,14 +178,6 @@ html, body {
     color: #AE37B2;
 }
 
-
-
-/* ******************************
-            HOST SCREEN
-       (host-game-template)
-   ****************************** */
-
-/* Absolute Centering: http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/ */
 #wordArea {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
@@ -293,11 +249,6 @@ html, body {
     text-align: right;
 }
 
-
-/* ******************************
-          TITLE SCREEN
-     (intro-screen-template)
-   ****************************** */
 
 .gameOver {
     display: block;
